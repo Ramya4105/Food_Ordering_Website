@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Menu Page</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            Foodie
+        </div>
+
+        <ul class="nav-links">
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="menu.html">Menu</a></li>
+
+            <li><a href="cart.html">Cart</a></li>
+
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+
+
+    <!-- MENU SECTION -->
+
+    <section class="featured">
+
+        <h2>Our Delicious Foods</h2>
+
+        <div class="food-container">
+
+
+            <div class="food-card">
+
+                <img src="images/pizza.png">
+
+                <h3>Cheese Pizza</h3>
+
+                <p>₹199</p>
+
+                <button onclick="showMessage()">
+                    Add to Cart
+                </button>
+
+            </div>
+
+
+            <div class="food-card">
+
+                <img src="images/burger.png">
+
+                <h3>Chicken Burger</h3>
+
+                <p>₹149</p>
+
+                <button onclick="showMessage()">
+                    Add to Cart
+                </button>
+
+            </div>
+
+
+            <div class="food-card">
+
+                <img src="images/pasta.png">
+
+                <h3>Italian Pasta</h3>
+
+                <p>₹249</p>
+
+                <button onclick="showMessage()">
+                    Add to Cart
+                </button>
+
+            </div>
+
+
+            <div class="food-card">
+
+                <img src="images/chicken.png">
+
+                <h3>Fried Chicken</h3>
+
+                <p>₹299</p>
+
+                <button onclick="showMessage()">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+<script>
+
+function showMessage(){
+
+    alert("Item Added To Cart Successfully!");
+
+}
+
+</script>
+
+
+</body>
+
+</html>
